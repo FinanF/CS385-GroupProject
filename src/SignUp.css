@@ -1,0 +1,32 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 7px solid #f48bbe;
+  padding: 10px;
+  background-color: #fbb9e9;
+}
+header h1 {
+  text-align: center;
+}
+.SignUp {
+  display: flexbox;
+  align-items: baseline;
+}
+.SignUp label {
+  border-radius: 8px;
+  background-color: white;
+  width: 70px;
+  padding-right: 3px;
+  padding-left: 3px;
+  gap: 10px;
+}
+.SignUp button {
+  color: #f48bbe;
+  width: auto;
+  height: auto;
+  border-radius: 21px;
+  border-color: #f48bbe;
+  font-size: 15px;
+  margin: 0 auto;
+}

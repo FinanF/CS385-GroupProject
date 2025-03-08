@@ -1,0 +1,128 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 7px solid #f48bbe;
+  padding: 10px;
+  background-color: #fbb9e9;
+  font-size: 20px;
+}
+header h1 {
+  text-align: center;
+}
+body {
+  background-color: #96ebc2;
+}
+.Logo {
+  width: 60px;
+  height: auto;
+}
+.KK_header {
+  font-size: 30px;
+  font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 0 0 3px #95265b, 0 0 5px #e1408e;
+}
+.Droplist {
+  align-self: center;
+  display: flex;
+  border-radius: 16px;
+  border: #f48bbe;
+  color: #f48bbe;
+  font-size: 20px;
+}
+.Droplist_and_icon {
+  align-items: center;
+  display: flex;
+  gap: 5px;
+}
+.Profile_icon {
+  width: 50px;
+  height: auto;
+}
+.username {
+  font-size: 30px;
+}
+.Profile_icon_and_username {
+  display: flex;
+  grid-auto-flow: column;
+  align-items: center;
+  border: 7px solid #f48bbe;
+  background-color: #fbb9e9;
+  width: 180px;
+  height: auto;
+  border-radius: 16px;
+  font-size: 20px;
+}
+.Savings_text {
+  background-color: #ffffff;
+  border-radius: 16px;
+  height: 40px;
+  width: fit-content;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+.Savings button {
+  color: #f48bbe;
+  width: 80px;
+  height: 30px;
+  border-radius: 21px;
+  border-color: #f48bbe;
+  font-size: 17px;
+  margin: 0 auto;
+  gap: 10px;
+}
+.Account_List {
+  padding-left: 20px;
+  font-size: larger;
+}
+.Account_List_Row {
+  background-color: #ffffff;
+  border-radius: 16px;
+  height: 50px;
+  width: fit-content;
+}
+.Add {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  position: relative;
+  margin-top: 20px;
+}
+.Add img {
+  width: 60px;
+  height: auto;
+  position: relative;
+}
+.Add_button {
+  position: absolute;
+  top: 50%;
+  transform: translate(525%, -50%);
+  z-index: 1;
+  width: 50px;
+  height: 50px;
+  border: none;
+  background-color: transparent;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  cursor: pointer;
+}
+.Input_box {
+  border-radius: 10px;
+  border: 1px solid #f48bbe;
+  padding: 5px 10px;
+  font-size: 16px;
+  width: 150px; /* Set a consistent width */
+}
+
+.Input_box::placeholder {
+  color: #f48bbe;
+}
+div {
+  color: #f48bbe;
+  font-family: Arial, Helvetica, sans-serif;
+}

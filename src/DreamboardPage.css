@@ -1,0 +1,46 @@
+.Wish_list-container {
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(150px, 1fr)
+  ); /* Adjust the size as needed */
+  gap: 20px; /* Space between the squares */
+}
+
+.Wish_list {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 150px; /* Set the width */
+  height: 250px; /* Set the height to make it a square */
+  box-sizing: border-box; /* Include padding and border in the dimensions */
+  text-align: center; /* Center the text */
+}
+.Add_Dreamboard {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  top: 50%; /* Move the element 50% down the viewport */
+  left: 50%; /* Move the element 50% right across the viewport */
+  font-style: italic;
+  border: 10px solid #f48bbe;
+  width: 400px;
+  border-color: #f48bbe;
+  background-color: white;
+}
+.button {
+  color: #f48bbe;
+  width: 110px;
+  height: 40px;
+  border-radius: 21px;
+  border-color: #f48bbe;
+  font-size: 27px;
+  margin: 0 auto;
+  gap: 10px;
+}
+.Add_Dreamboard img {
+  height: 40px;
+}

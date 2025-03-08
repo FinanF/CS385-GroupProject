@@ -1,0 +1,120 @@
+/* General body styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 7px solid #f48bbe;
+  padding: 10px;
+  background-color: #fbb9e9;
+}
+/* Container for content */
+.container {
+  padding: 20px;
+}
+
+/* Header Styling */
+.header {
+  background-color: #ffc0cb; /* Light pink pastel */
+  border: 2px solid #ffb6c1; /* Slight darker pink border */
+  border-radius: 15px;
+  text-align: center;
+  padding: 10px 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+/* Logo text */
+.header h1 {
+  color: #e91e63; /* Darker pink text */
+  font-size: 2rem;
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  align-items: center; /* centering elements */
+  justify-content: space-between; /* Spread content across the header */
+  gap: 15px;
+  padding: 10px; /* Add some padding */
+  background-color: #f8f9fa; /*background color for the header */
+}
+
+.logo {
+  width: 50px; /* Set a size for the logo */
+  height: auto;
+  margin-right: 5px; /* Add spacing*/
+}
+
+.navbar {
+  display: flex;
+  flex-wrap: wrap; /*allows navbar to wrap al elemenrs*/
+  justify-content: space-around;
+  gap: 15px; /* Spce between buttons */
+}
+
+.navbar button {
+  background-color: #ff0099; /* Customize button color */
+  color: white; /* Button text color */
+  border: none; /* Remove border */
+  border-radius: 10px; /* Rounded buttons */
+  padding: 10px 20px; /* Padding inside buttons */
+  cursor: pointer; /* Pointer cursor on hover */
+}
+
+.navbar button:hover {
+  background-color: #e60087; /* Darker shade on hover */
+}
+
+/* Chart container styling */
+.chart-container {
+  background-color: #fff; /* White background for contrast */
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px auto;
+  width: 80%;
+}
+
+/* Input form styling */
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffe4e9;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.form label {
+  margin: 10px 0;
+  font-weight: bold;
+}
+
+.form input {
+  padding: 10px;
+  border: 1px solid #ffb6c1;
+  border-radius: 10px;
+}
+
+.form button {
+  background-color: #e91e63; /* Bright pink */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form button:hover {
+  background-color: #c2185b; /* Darker pink on hover */
+}
